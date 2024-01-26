@@ -1,2 +1,14 @@
- 1. When a user puts a URL, or uniform resource locator, into their browser they are connected by the ISP, or internet service provider. Then they connect to DNS which is the domain name server where all of the servers are locator this translates the URL into an IP address which is a unique address that every computing device has
+ 1. When a user puts a URL, or uniform resource locator, into their browser they are connected by the ISP, or internet service provider. 
+ Then they connect to DNS which is the domain name server where all of the servers are located. 
+ This translates the URL into an IP address which is a unique address that every computing device has and helps with the transportation.
+ Finally the web server, which is how people acess the internet, sends the page to the user.
+
+ 2. HTML is hyper text markup language and it is the standard markup language for creating web pages. 
+
+ 3. This webpage uses images, text, and headings to convey meaning and navigation options for the user. For example, there is a navigation bar for users to access different parts of the webpage on top. 
+ There is also big images to show campus and other aspects of the university. Also there is large headings to display importance.
+
+ 4. An html element is the code made up of characters that live inside angled brackets. 
+ Elements are made up of two tags, opening (<) and closing (>). Attributes tell us more about an element such as the color or font of a header element.
+
     
