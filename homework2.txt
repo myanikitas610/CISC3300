@@ -1,0 +1,10 @@
+1. Structural: has an effect on the structure of a page but doesn't necessarily convey any meaning
+Semantic: intended to convey meaning with that element type even if it is indistinguishable from other elements visually
+
+2. Its important to use correct html elements when designing web pages so then the user can understand the web page more easily. It also gives meaning to the website.
+
+3. Forms in html collect data from a user with text boxes, input buttons, checkboxes, etc. 
+Their purpose is to get input from a user and can be used to access a website using your username and password.
+
+4. Inline elements continue on the same line as other code where block elements create a new section and new line for the code to go in. 
+<span> is an example of a inline element and <br> is an example of a block element. 
