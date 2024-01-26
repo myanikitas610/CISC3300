@@ -1,0 +1,2 @@
+ 1. When a user puts a URL, or uniform resource locator, into their browser they are connected by the ISP, or internet service provider. Then they connect to DNS which is the domain name server where all of the servers are locator this translates the URL into an IP address which is a unique address that every computing device has
+    
