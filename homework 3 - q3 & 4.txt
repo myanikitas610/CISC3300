@@ -1,0 +1,11 @@
+3.  Margin, padding, and border are all aspects that change the height and width of the box around elements.
+Border is the outside edge of the box.
+Padding is the space between box and content.
+Margin is the gap between boxes.
+
+
+4. a. display: flex defines a flex container for all of the elements to go in.
+b. flex-direction defines in which direction the elements should go in (row is left to right and columun is top to bottom)
+c. flex-wrap means the elements will go from one line to the next from top to bottom.
+d. justify-content defines the alignment of the elements from left to right (flex-start(starts on the left),center (puts elemts in the center of the page), etc.) align-items define the alightment of the elements from top to bottom (flex-start (starts on top), center (elements go in the center of the page), etc.).
+e. align-center aligns the spaces between the lines of the flex containers. 
