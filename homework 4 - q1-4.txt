@@ -1,8 +1,0 @@
-1. Javascript is a programming langauage that adds dynamic interactions to web pages, applications, servers, and games. 
-An interpreted programming language complies slower and is more flexible than a complied langauge. 
-
-2. var is global and function scoped and redeclarable, let is block scoped and redeclarable as well, const is block scoped but not declarable. 
-
-3. An anonymous function is a function without a name. A higher order function is a function that returns a function or takes other functions as arguments.
-
-4. Objects are non primitive data types and are a collection of properties. They are different from other OOP languages because objects in Javascript can inhert properties and methods from other objects.
