@@ -1,3 +1,6 @@
-4.
+4. The DOM specifies how browsers should create a model of an HTML page and how JavaScript can access and update the contents of a web page while it is
+in the browser window. The DOM tree is a model of the webpage on the browser as it loads it is stored in the browsers memory and contains the document node, eleemnt node, attribute node,
+and text node.
 
-5.
+5. A XSS attack is if you add HTML to a page using innerHTML the attacker can gain access to the users accounts. For example, the user can use a script tag to send the users data elsewhere.
+In order to guard against them, you can validate the input and strip it of any tags or malicious text.

@@ -1,0 +1,38 @@
+<html>
+    <body>
+        <button id = "button"> Click me!</button>
+
+        <ul id = "List">
+            <li> Apples </li>
+            <li> Oranges </li>
+            <li> Strawberries </li>
+        </ul>
+        
+        <div id = "paragraphAppend">
+            <button id = "append"> Click me to append!</button>
+        </div>
+
+        <script>
+            document.getElementById('button').addEventListener('click', function(){
+                this.innerText = 'Clicked!';
+            });
+
+            var listItems = document.querySelectorAll('#List li');
+            listItems.forEach(item => {
+                item.addEventListener('click', function(){
+                    listItems.forEach(li => {
+                        li.style.color = "blue";
+                    });
+                });
+            });
+
+            document.getElementById('append').addEventListener('click', function(){
+                var paragraph =  document.createElement('p');
+                paragraph.textContent = "New paragraph added!";
+                document.getElementById('paragraphAppend').appendChild(paragraph);
+            });
+
+        </script>
+
+    </body>
+</html>
