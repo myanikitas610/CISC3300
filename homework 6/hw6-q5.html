@@ -1,0 +1,32 @@
+<html>
+<head>
+    <title>Taylor Swift API </title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+
+<h1>Taylor Swift API </h1>
+
+<button id="getRandom">Get Random Lyric</button>
+<div id="taylorSwiftData"></div>
+
+<script>
+
+    function getRandom() {
+        $.getJSON('https://taylorswiftapi.onrender.com/get', function(data) {
+            var htmlContent = `
+                <p><strong>Lyric:</strong> ${data.quote}</p>
+                <p><strong>Album:</strong> ${data.album}</p>
+                <p><strong>Song:</strong> ${data.song}</p>
+            `;
+
+            $('#taylorSwiftData').html(htmlContent);
+    })
+}
+    getRandom();
+    $('#getRandom').on('click', getRandom);
+
+</script>
+
+</body>
+</html>

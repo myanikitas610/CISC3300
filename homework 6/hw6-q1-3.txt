@@ -1,0 +1,9 @@
+1. HTTP is a protocol for fetching resources such as HTML documents. It is how the internet handles communication between clients and servers.
+The GET method recieves data, POST submits an entity to the specified resource, PUT replaces all surrent represtations of the target resouce with the request payload,
+PATCH partially modifies a resource, and DELETE deletes a resource. 
+
+2. An API is a way for two or more computer programs or components to communicate with each other can be accessed with HTTP requests.
+JSON is text data but Javascript is ready to parse it into javascript objects and vice versa.
+
+3. AJAX is a technique for loading data into part of a page without having to refresh the page. 
+Asynchronous code means it can run in the background without blocking the execution of other code.

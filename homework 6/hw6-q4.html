@@ -1,0 +1,21 @@
+<html>
+<head>
+  <title>Requests</title>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+</head>
+<body>
+
+<script>
+  $(document).ready(function() {
+    $.ajax({
+      url: 'http://localhost:3000/',
+      type: 'GET',
+      success: function(posts) {
+        console.log('GET Request Response:', posts);
+      }
+    });
+  });
+</script>
+
+</body>
+</html>
