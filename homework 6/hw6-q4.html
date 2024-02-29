@@ -15,6 +15,36 @@
       }
     });
   });
+
+  var newData = {
+      key1: 'value1',
+      key2: 'value2'
+    };
+
+    $.ajax({
+      url: 'http://localhost:3000/comments',
+      type: 'POST',
+      contentType: 'application/json',
+      data: JSON.stringify(newData),
+      success: function(comments) {
+        console.log('POST Request Response:', comments);
+      }
+    });
+
+    var updatedData = {
+      key1: 'My name is',
+      key2: 'Mya'
+    };
+
+    $.ajax({
+      url: 'http://localhost:3000/posts/2', 
+      type: 'PUT',
+      contentType: 'application/json',
+      data: JSON.stringify(updatedData),
+      success: function(posts) {
+        console.log('PUT Request Response:', posts);
+      }
+    });
 </script>
 
 </body>

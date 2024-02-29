@@ -26,6 +26,11 @@
       "id": "2",
       "text": "another comment about post 1",
       "postId": "1"
+    },
+    {
+      "id": "c44c",
+      "key1": "value1",
+      "key2": "value2"
     }
   ],
   "profile": {
