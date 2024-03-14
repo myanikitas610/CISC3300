@@ -1,0 +1,14 @@
+1. Escaping data means to remove and replace any value that could be taken is as code such as < = &lt;, > = &gt;. 
+This helps avoid malicous code so the interpreter cant treat the input as code. 
+
+2. a. REST is representational state transfer and it helps systems comminicate with each other. 
+statelessness means the server does not need to know anything about what state the client is in and vice versa.
+b. Resources describe the objects or documents that the user can store or send to others.
+c. i. GET https://www.myWebsite.com/users
+ii. GET https://www.myWebsite.com/users/{userID}
+iii. POST https://www.myWebsite.com/users
+
+3. A cookie is a text file where a webiste can tell a user to store information in. Each time a browser requests another page,
+a cookie with the data is sent back to the server.
+
+4. A session stores information about a user and their prefrences for the duration of a single visit to the site. 
